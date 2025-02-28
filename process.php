@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 
 
-$apikey = "AIzaSyC5w0SUZ4a5y8IOhaBeLFthb-l5KH6qSVM";
+$apikey = "Your API key";
 
 if ($_FILES['image']['error'] === UPLOAD_ERR_OK) {
     $imagePath = $_FILES['image']['tmp_name'];
